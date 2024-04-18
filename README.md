@@ -2,6 +2,9 @@
 
 Tertiary Structure-based RNA Inverse Folding with Generative Diffusion Models
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ml4bio/RiboDiffusion/blob/main/LICENSE)
+[![ArXiv](http://img.shields.io/badge/q.bio-arXiv%3A2404.11143-B31B1B.svg)](https://arxiv.org/abs/2404.11199)
+
 ![cover](fig/pipeline.png)
 
 ## Installation
