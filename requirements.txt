@@ -3,7 +3,6 @@ biopython==1.80
 dm_tree==0.1.7
 fair_esm==2.0.0
 ml_collections==0.1.1
-numpy==1.22.4
 numpy==1.24.3
 scipy==1.7.3
 torch==1.13.1

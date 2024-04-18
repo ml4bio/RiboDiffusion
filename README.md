@@ -16,8 +16,7 @@ Download and put the checkpoint files in the `ckpts` folder.
 ## Usage
 
 Inference demo notebook to get started: <a target="_blank" href="https://colab.research.google.com/drive/199D6B0FsIYf-gW-hfMEBCcKaai_hM_cU">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>.
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>.
 
 Run the following command to run the example for one sequence generation:
 ```bash
@@ -37,11 +36,16 @@ CUDA_VISIBLE_DEVICES=0 python main.py --PDB_file example/R1107.pdb --config.eval
 
 ## Citation
 
-[//]: # (If you find this work useful, please cite:)
+If you find this work useful, please cite:
 
-[//]: # (```)
-
-[//]: # (```)
+```
+@article{huang2024ribodiffusion,
+      title={RiboDiffusion: Tertiary Structure-based RNA Inverse Folding with Generative Diffusion Models}, 
+      author={Han Huang and Ziqian Lin and Dongchen He and Liang Hong and Yu Li},
+      journal={arXiv preprint arXiv:2404.11199},
+      year={2024}
+}
+```
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
