@@ -42,11 +42,16 @@ CUDA_VISIBLE_DEVICES=0 python main.py --PDB_file example/R1107.pdb --config.eval
 If you find this work useful, please cite:
 
 ```
-@article{huang2024ribodiffusion,
-      title={RiboDiffusion: Tertiary Structure-based RNA Inverse Folding with Generative Diffusion Models}, 
-      author={Han Huang and Ziqian Lin and Dongchen He and Liang Hong and Yu Li},
-      journal={arXiv preprint arXiv:2404.11199},
-      year={2024}
+@article{10.1093/bioinformatics/btae259,
+    author = {Huang, Han and Lin, Ziqian and He, Dongchen and Hong, Liang and Li, Yu},
+    title = {RiboDiffusion: tertiary structure-based RNA inverse folding with generative diffusion models},
+    journal = {Bioinformatics},
+    volume = {40},
+    number = {Supplement_1},
+    pages = {i347-i356},
+    year = {2024},
+    month = {06},
+    issn = {1367-4811}
 }
 ```
 
