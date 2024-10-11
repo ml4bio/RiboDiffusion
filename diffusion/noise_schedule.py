@@ -27,7 +27,7 @@ class NoiseScheduleVP:
             if schedule == 'discrete_poly':
                 alphas_cumprod = get_polynomial_schedule(1000, power=2)
                 log_alphas = 0.5 * torch.log(alphas_cumprod)
-            elif beta is not None:
+            elif betas is not None:
                 log_alphas = 0.5 * torch.log(1 - betas).cumsum(dim=0)
             else:
                 assert alphas_cumprod is not None
