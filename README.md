@@ -32,7 +32,9 @@ Multiple sequence generation can be run by:
 CUDA_VISIBLE_DEVICES=0 python main.py --PDB_file example/R1107.pdb --config.eval.n_samples 10
 ```
 
-Adjusting the conditional scaling weight can be done by:
+For more sequence diversity, you can use `exp_inf_large.pth` or adjust the conditional scaling weight by `--config.eval.cond_scale`.
+
+An example for adjusting the conditional scaling weight is as follows:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python main.py --PDB_file example/R1107.pdb --config.eval.n_samples 10 --config.eval.dynamic_threshold --config.eval.cond_scale 0.4
 ```
