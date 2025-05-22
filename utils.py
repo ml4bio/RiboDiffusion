@@ -1,6 +1,7 @@
 import torch
 import os
 import numpy as np
+import random # Added for set_random_seed
 from sampling import post_process
 
 
@@ -54,3 +55,10 @@ def get_data_inverse_scaler(config):
         return seq
 
     return inverse_scale_fn
+
+def set_random_seed(seed):
+    torch.manual_seed(seed)
+    np.random.seed(seed)
+    random.seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
